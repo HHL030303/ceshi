@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var value = 1;
+		function bar(){
+		    var value =2;
+		    console.log(value)
+		}
+		bar() //2
+		function fo(){
+			var value =4
+			console.log(value)
+		};
+		function baz(){
+			var value =3
+			fo()
+		};
+		baz();
+//		function foo() {
+//		    console.log(a);
+//		 var   a = 1;
+//		}
+//		foo();
+		console.log(foo);
+		function foo(){
+		console.log("foo");
+		}
+
+		var foo = 1;
+		</script>
+	</body>
+</html>
